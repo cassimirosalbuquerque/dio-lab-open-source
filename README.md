@@ -52,21 +52,11 @@ Para concluir este Desafio de Projeto, basta enviar a **URL do seu "fork" de um 
 > [!NOTE]   
 > Por exemplo, a URL https://github.com/falvojr/dio-lab-open-source é o "**fork**" feito pelo usuário do GitHub "`falvojr`" para a contribuição no repositório `dio-lab-open-source`.
 
-### Contribua com seu Profile README
-1. Faça um **Fork** deste repositório;
-2. Clone localmente: `git clone https://github.com/SEU_USERNAME/dio-lab-open-source.git`;
-3. Adicione o remote upstream para manter seu repositório local atualizado. Por exemplo: `git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git`;
-    > Utilize o comando `git pull upstream main` para baixar e mesclar as alterações no seu repositório local com base na branch `main` deste repositório original de onde você fez o fork, ou `git fetch upstream main` para baixar sem mesclar. Veja mais em: [Primeiros Passos com Git e GitHub](https://github.com/digitalinnovationone/dio-curso-git-github/blob/main/materiais-de-apoio/03-primeiros-passos-com-git-e-github.md).
-4. Crie/Referêncie uma nova **branch** e nomeie como `feat/community/SEU_USERNAME`: `git checkout -b feat/community/SEU_USERNAME`;
-    > Exemplo: `git checkout -b feat/community/elidianaandrade`
-5. Dentro da pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), crie um arquivo em Markdown (extensão `.md`) e nomeie com o mesmo nome do seu usuário no GitHub;
-    > Exemplo: `elidianaandrade.md` <br>
-6. Desenvolva o seu perfil. Para isso, você pode ver exemplos na pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) e adicionar alguns dos utilitários presentes na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils);
-    > **Observação:** Use os outros exemplos como inspiração e não cópia.
-7. Adicione suas alterações a "staging area" com o comando `git add community/SEU_USERNAME.md`;
-8. Crie um commit e adicione a mensagem indicando a adição do seu perfil `git commit -m"feat: add SEU_USERNAME profile"`;
-9. Envie as alterações para o seu repositório remoto `git push origin feat/community/SEU_USERNAME`; 
-10. Crie um **Pull Request**.
+### Contribua com seu Profile README em um projeto OPEN SOURCE
+i. Faça um **Fork** do repositório que você quer ajudar;
+ii. Isso fará um clone do arquivo;
+iii. Faça as alterações necessárias com o seu conhecimento e com o que você tem como objetivo;
+iv. Pronto! Essa foi sua contribuição. Parabéns!
 
 
 #### Utilitários
